@@ -33,4 +33,4 @@ This project sets up a Vagrant environment using VMware Fusion. The Vagrantfile 
    # start the vitual box
    vagrant up
    # Login into vagrant
-   vagrant ssh (To login vagrant machine)
+   vagrant ssh
