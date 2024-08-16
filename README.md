@@ -23,3 +23,14 @@ This project sets up a Vagrant environment using VMware Fusion. The Vagrantfile 
 
 3. **Install VMtilites following below url**
    - [Vagrant VMware Utility](https://www.vagrantup.com/docs/vmware/vagrant-vmware-utility.html)
+
+4. **Now run vagrant commands**:
+   ```bash
+   # add new arm based virtual box or download locally
+   vagrant box add bento/ubuntu-20.04-arm64
+   # you check list of boxes added in your local
+   vagrant box list
+   # start the vitual box
+   vagrant up
+   # Login into vagrant
+   vagrant ssh (To login vagrant machine)
